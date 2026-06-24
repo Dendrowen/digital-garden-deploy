@@ -9,4 +9,4 @@ Script to deploy digital garden on a debian machine
 	- nvm use 24
 
 # Usage
-`curl -o- https://raw.githubusercontent.com/Dendrowen/digital-garden-deploy/refs/heads/main/script.sh | bash`
+`bash <(curl -s https://raw.githubusercontent.com/Dendrowen/digital-garden-deploy/refs/heads/main/script.sh)`
