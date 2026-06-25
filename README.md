@@ -3,8 +3,8 @@ Script to deploy digital garden on a debian machine
 
 # Prerequisites
 - A ready to publish vault
-- A ssh or gpg key setup between the host and your github account
 - A debian server with:
+  	- An SSH or GPG key pair with github
 	- install libatomic `apt install libatomic`
 	- install npm through nvm:
 		- `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.5/install.sh | bash`
