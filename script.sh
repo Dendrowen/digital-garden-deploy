@@ -80,10 +80,10 @@ cat <<- EOF > /opt/$PROJECT/update.sh
 #!/bin/bash
 # /opt/$PROJECT/update.sh
 
-REPO_DIR="$PWD/$PROJECT"
+REPO_DIR="$PWD/"
 LOG_FILE="/var/log/$PROJECT-update.log"
 
-cd "$REPO_DIR" || exit 1
+cd "\$REPO_DIR" || exit 1
 
 # Check for remote changes
 git fetch origin
