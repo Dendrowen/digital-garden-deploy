@@ -11,6 +11,7 @@ Script to deploy digital garden on a debian machine
 		- nvm install 24
 		- nvm use 24
 
+# Steps
 1. Create repo from https://github.com/oleeskild/digitalgarden as a template
 	- Don't include all branches (just main)
 2. On the server:
