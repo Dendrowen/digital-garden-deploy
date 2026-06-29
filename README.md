@@ -27,5 +27,4 @@ Script to deploy digital garden on a debian machine
 		- When refreshing the settings it should say that your site template is up to date.
 	3. Add the dg-publish property to all files 
 	4. Add the dg-home property to a single file
-	5. `ctrl+p` in your homepage file
-	6. `Digital garden: Publish All Notes Marked for Publish`
+	5. `ctrl+p` > `Digital garden: Publish All Notes Marked for Publish`
